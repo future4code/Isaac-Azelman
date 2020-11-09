@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightseagreen;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    border: solid 2px black;
+
+}
+
+main {
+    background-color: bisque;
+    flex-grow: 1;
+    display: flex;
+}
+
+footer {
+    background-color: lightskyblue;
+    height: 70px;
+}
+
+#menu {
+    background-color: crimson;
+}
+
+#conteudo {
+    background-color: lime;
+    flex-grow: 1;
+}
+#links {
+    background-color: royalblue;
+}
